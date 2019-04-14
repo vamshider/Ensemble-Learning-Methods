@@ -362,7 +362,7 @@ def print_errors(on_train_data, on_test_data,
 # getdata
 #------------------------------------------------------------------------------
 def get_data(dataset_name='dummy', extension='.data'):
-    data_path = './data/'
+    data_path = './'
     return np.genfromtxt((data_path + dataset_name + extension), 
                       missing_values=0, skip_header=0, delimiter=',', dtype=int)
 
